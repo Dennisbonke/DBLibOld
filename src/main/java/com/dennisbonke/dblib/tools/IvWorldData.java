@@ -21,21 +21,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class WorldData {
+public class IvWorldData {
     public static final String ID_FIX_TAG_KEY = "SG_ID_FIX_TAG";
 
     public IvBlockCollection blockCollection;
     public List<TileEntity> tileEntities;
     public List<Entity> entities;
 
-    public WorldData(IvBlockCollection blockCollection, List<TileEntity> tileEntities, List<Entity> entities)
+    public IvWorldData(IvBlockCollection blockCollection, List<TileEntity> tileEntities, List<Entity> entities)
     {
         this.blockCollection = blockCollection;
         this.tileEntities = tileEntities;
         this.entities = entities;
     }
 
-    public WorldData(World world, BlockArea blockArea, boolean captureEntities)
+    public IvWorldData(World world, BlockArea blockArea, boolean captureEntities)
     {
         int[] size = blockArea.areaSize();
         blockCollection = new IvBlockCollection(size[0], size[1], size[2]);
@@ -65,7 +65,7 @@ public class WorldData {
         }
     }
 
-    public WorldData(NBTTagCompound compound, World world, MCRegistry registry)
+    public IvWorldData(NBTTagCompound compound, World world, MCRegistry registry)
     {
         compound = (NBTTagCompound) compound.copy(); // Copy since ID fix tags are being removed when being applied
 
