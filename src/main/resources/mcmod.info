@@ -1,0 +1,16 @@
+[
+{
+  "modid": "advancedtools",
+  "name": "Advanced Tools",
+  "description": "Extra tools!",
+  "version": "1.7.10-0.5.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zandor300", "Dennisbonke"],
+  "credits": "None",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
