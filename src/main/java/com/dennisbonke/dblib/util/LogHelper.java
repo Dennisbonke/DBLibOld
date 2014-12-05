@@ -76,6 +76,11 @@ public class LogHelper {
         log(Level.INFO, object);
     }
 
+    public static void info2(String s, int xCoord, int yCoord, Object object)
+    {
+        log(Level.INFO, object);
+    }
+
     public static void off(Object object)
     {
         log(Level.OFF, object);
@@ -89,5 +94,31 @@ public class LogHelper {
     public static void warn(Object object)
     {
         log(Level.WARN, object);
+    }
+
+    public static void warn2(String s, Object object, int i, int xCoord)
+    {
+        log(Level.WARN, object);
+    }
+
+    public static void warn4(String s, Object object, int i, int xCoord)
+    {
+        log(Level.WARN, object);
+    }
+
+    public static void warn3(String s, String s1) {
+        log(Level.WARN);
+    }
+
+    private static void log(Level warn) {
+
+    }
+
+    public static void fatal2(String s, int i) {
+        log(Level.FATAL);
+    }
+
+    public static void warn1(String s, String s1, int i, int i1) {
+        log(Level.WARN);
     }
 }
