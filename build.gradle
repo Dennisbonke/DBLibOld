@@ -61,3 +61,8 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+tasks.withType(JavaCompile)	{
+    sourceCompatibility = "1.7"
+    targetCompatibility = "1.7"
+}
