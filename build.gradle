@@ -22,7 +22,7 @@ group= "com.dennisbonke.dblib" // http://maven.apache.org/guides/mini/guide-nami
 archivesBaseName = "DBLib"
 
 minecraft {
-    version = "1.7.10-10.13.0.1240"
+    version = "1.7.10-10.13.2.1240"
     assetDir = "eclipse/assets"
 }
 
