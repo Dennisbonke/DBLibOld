@@ -1,9 +1,11 @@
 DBLib
 =====
 
-Shared libraries for Advanced Tools / Foods, not needed as of now.
+Shared libraries for Advanced Tools / Foods.<br>
+Required for Advanced Tools.
+
 
 <h2>Important!</h2>
-Java 7 or higher is required, java 6 will NOT work!
-If you want to help with the development of DBLib, fork this repository and setup your dev environment.
-If you want to help with the development of a mod that depends on DBLib, you should fork that repository, setup your dev environment, clone this repository, build the project so you have a .jar file and put that in the ./libs folder of the forked repository.
+Java 7 or higher is required, java 6 will NOT work!<br>
+If you want to help with the development of DBLib, fork this repository and setup your dev environment.<br>
+If you want to help with the development of a mod that depends on DBLib, you should fork that repository, setup your dev environment, and you're good to go.
