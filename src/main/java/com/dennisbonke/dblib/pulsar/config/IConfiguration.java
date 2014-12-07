@@ -5,7 +5,7 @@ package com.dennisbonke.dblib.pulsar.config;
 import com.dennisbonke.dblib.pulsar.pulse.PulseMeta;
 
 /**
- * Interface for config handlers.
+ * Interface for config handler.
  *
  * @author Arkan <arkan@drakon.io>
  */
