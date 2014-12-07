@@ -39,7 +39,6 @@ public class DBLib {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
 
-        logger = (Logger) new LogHelper(Reference.MOD_NAME);
         LogHelper.info("Pre Initialization Complete!");
     }
 
