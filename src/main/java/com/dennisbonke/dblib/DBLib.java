@@ -16,25 +16,33 @@ import org.apache.logging.log4j.Logger;
 public class DBLib {
     {
         if (Loader.isModLoaded("Advanced Foods")) {
-            LogHelper.info("AF found, stay tuned!");
+            LogHelper.info("Advanced Foods found, stay tuned!");
         } else {
-            LogHelper.info("AF not found :(");
+            LogHelper.info("Advanced Foods not found :(");
         }
     }
 
     {
         if (Loader.isModLoaded("Advanced Tools")) {
-            LogHelper.info("AT found, stay tuned!");
+            LogHelper.info("Advanced Tools found, stay tuned!");
         } else {
-            LogHelper.info("AT not found :(");
+            LogHelper.info("Advanced Tools not found :(");
         }
     }
 
     {
         if (Loader.isModLoaded("Advanced Nature")) {
-            LogHelper.info("AN found, stay tuned!");
+            LogHelper.info("Advanced Nature found, stay tuned!");
         } else {
-            LogHelper.info("AN not found :(");
+            LogHelper.info("Advanced Nature not found :(");
+        }
+    }
+
+    {
+        if (Loader.isModLoaded("Advanced Machines")) {
+            LogHelper.info("Advanced Machines found, stay tuned!");
+        } else {
+            LogHelper.info("Advanced Machines not found :(");
         }
     }
     {
