@@ -29,6 +29,14 @@ public class DBLib {
             LogHelper.info("AT not found :(");
         }
     }
+
+    {
+        if (Loader.isModLoaded("Advanced Nature")) {
+            LogHelper.info("AN found, stay tuned!");
+        } else {
+            LogHelper.info("AN not found :(");
+        }
+    }
     {
         EnviromentChecks.checkEnvironement();
     }
